@@ -1,9 +1,20 @@
 <template>
-  <div class="detail">detail</div>
+  <div class="detail">
+<Bigimgs></Bigimgs>
+  </div>
 </template>
 
 <script>
+import Bigimgs from "./detail/bigimg"
 export default {
+data(){
+  return{
+   
+  }
+},
+ components:{
+      Bigimgs
+    }
 
 }
 </script>
