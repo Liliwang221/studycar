@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Detail from "../views/detail"
 Vue.use(VueRouter)
+const Colorimg=()=>import("../views/colorimg")
+
 
 const routes = [
   {
@@ -13,6 +15,9 @@ const routes = [
   {
     path:"/detail",
     component:Detail
+  },{
+    path:"/colorimg",
+    component:Colorimg
   }
   // {
   //   path: '/detail',
